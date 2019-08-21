@@ -1,0 +1,18 @@
+Variables
+let - variable that varies
+const - variable that doesn't change
+
+Import and Export
+
+//eg. person.js
+
+const person = {
+	name:'John';
+}
+
+export default person
+
+//on app.js
+import person from './person.js'
+//or 
+import prs from './person.js'
